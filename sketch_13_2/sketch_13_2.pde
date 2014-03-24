@@ -1,0 +1,14 @@
+PFont font;
+size(700,500);
+font = loadFont("Matilde-48.vlw");
+textFont(font);
+fill(0.5);
+textAlign(LEFT);
+String s1 = "They say its good for the heart";
+textAlign(RIGHT);
+String s2 = "They say its good for the mind";
+textAlign(CENTER);
+String s3 = "They say the people we love, we leave behind";
+text(s1, 10, 50, 420, 50);
+text(s2, 10, 100, 520, 50);
+text(s3, 10, 150, 520, 50);

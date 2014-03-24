@@ -1,0 +1,12 @@
+color ruby = color(211, 24, 24, 160);
+color pink = color(237, 159, 176);
+color purple = color(244, 45, 226);
+PImage img;
+size(640,480);
+img = loadImage("qee.jpg");
+tint(ruby);
+image(img, 0, 0);
+tint(pink);
+image(img, 0, 130);
+tint(purple);
+image(img, 0, 260);

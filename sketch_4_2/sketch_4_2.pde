@@ -1,0 +1,17 @@
+size(100, 100);
+int x = 3;
+line(x, 0, x, height);
+x *= 2;
+line(x, 0, x, height);
+x *= 2;
+line(x, 0, x, height);
+x *= 2;
+line(x, 0, x, height);
+x *= 2;
+line(x, 0, x, height);
+x *= 2;
+line(x, 0, x, height);
+x *= 2;
+line(x, 0, x, height);
+x *= 2;
+line(x, 0, x, height);
